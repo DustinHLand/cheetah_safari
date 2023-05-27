@@ -54,9 +54,9 @@ set(CMAKE_CXX_STANDARD 14)
 
 #find_package(lcm)
 
-add_subdirectory(robot)
 add_subdirectory(third-party)
 add_subdirectory(common)
+add_subdirectory(robot)
 
 if(NO_SIM)
 

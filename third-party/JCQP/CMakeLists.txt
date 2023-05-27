@@ -1,3 +1,4 @@
+include_directories(../)
 include_directories(amd/include)
 add_library(JCQP SHARED
         QpProblem.cpp

@@ -1,3 +1,5 @@
+include_directories(../)
+
 FILE(GLOB_RECURSE headers *.hh)
 FILE(GLOB_RECURSE sources *.cc)
 
