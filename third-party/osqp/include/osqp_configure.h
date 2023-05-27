@@ -6,15 +6,15 @@ extern "C" {
 # endif /* ifdef __cplusplus */
 
 /* Operative system */
-#define IS_LINUX
+// #define IS_LINUX
 /* #undef IS_MAC */
-/* #undef IS_WINDOWS */
+#define IS_WINDOWS
 
 /* EMBEDDED */
 /* #undef EMBEDDED */
 
 /* PRINTING */
-//#define PRINTING
+#define PRINTING
 
 /* PROFILING */
 #define PROFILING
